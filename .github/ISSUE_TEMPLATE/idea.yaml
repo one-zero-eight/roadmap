@@ -1,0 +1,17 @@
+name: 🚀 Idea
+description: Propose a new idea
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to propose an idea 💜
+        Please fill out the form below to help us understand and consider your proposal.
+  - type: textarea
+    id: idea-description
+    attributes:
+      label: Summary
+      description: A clear and concise description of what the idea is.
+      placeholder: Idea description
+    validations:
+      required: true
